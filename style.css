@@ -1,0 +1,336 @@
+@import url(//db.onlinewebfonts.com/c/2a6c168c7d603dbbce4a785ed6a1f536?family=Noe+Display+Medium);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.logo {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.logo img {
+    width: 145px;
+    height: 60px;
+}
+.banner {
+    background-color: #30003C;
+    color: #fff;
+    height: auto;
+    display: block;
+    font-family: 'Noe Display Medium';
+}
+.banner h2 {
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 77px;
+    font-size: 64px;
+    width: 708px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.banner h2 span {
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-decoration-color: #0039F6;
+}
+.about {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.about-img {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    padding-right: 113px;
+}
+.about-img img {
+    width: 359px;
+    height: 360px;
+}
+.about-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 50px;
+}
+.about-content--strong {
+    line-height: 29px;
+    font-size: 22px;
+    width: 425px;
+    margin-bottom: 50px;
+}
+.about-content--normal {
+    line-height: 20px;
+    font-size: 16px;
+    width: 368px;
+    margin-bottom: 10px;
+}
+.about-content--italic {
+    line-height: 14px;
+    font-size: 11px;
+    width: 368px;
+    font-style: italic;
+}
+.contact {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #30003C;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contact h2 {
+    display: block;
+    color: #fff;
+    font-size: 36px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.contact div {
+    margin-bottom: 20px;
+}
+.contact__title {
+    font-family: 'Noe Display Medium';
+}
+.contact__form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact input, select {
+    line-height: 17px;
+    background-color: #30003C;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 15px;
+    padding: 10px 15px;
+    width: 355px;
+}
+.btn-sm {
+    background-color: #F26104;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 26px;
+    font-weight: 600;
+}
+.question {
+    /* padding: 0 330px; */
+    font-size: 36px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.question p {
+    width: 700px;
+    display: inline-block;
+}
+.question a {
+    text-decoration-color: #000000;
+    color: #000000;
+}
+.insight {
+    background-color: #F1EFEB;
+    text-align: center;
+    padding-bottom: 60px;
+
+}
+.insight-all {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.insight-title {
+    font-size: 36px;
+    padding-top: 38px;
+    font-weight: 600;
+    font-family: 'Noe Display Medium';
+}
+.insight-item {
+    background-color: #fff;
+    height: 315px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+}
+.insight-all {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.insight-item__img img {
+    width: 90px;
+    height: 90px;
+}
+.insight-item__title {
+    font-size: 26px;
+    color: #30003C;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Noe Display Medium';
+}
+.insight-item__description {
+    font-family: 'Roboto', sans-serif;
+}
+/* footer */
+.footer {
+    font-family: 'Roboto', sans-serif;
+}
+.footer .menu {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .menu li {
+    display: block;
+    margin: 20px 0;
+    font-size: 18px;
+}
+.footer .menu li a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+.menu__connect ul {
+    display: flex;
+    gap: 10px;
+}
+.menu--title {
+    display: block;
+    font-size: 18px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.footer-logo-link a {
+    text-decoration: none;
+    color: #000000;
+    padding-right: 20px;
+}
+.footer-description {
+    color: rgb(156, 174, 172);
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 2560px) {
+    .container {
+        padding-left: 630px;
+        padding-right: 630px;
+    }
+    .banner h2 {
+        margin-left: 680px;
+        margin-right: 680px;
+    }
+    .contact {
+        margin-left: 680px;
+        margin-right: 680px;
+    }
+    .insight-all {
+        margin-left: 680px;
+        margin-right: 680px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .about-img {
+        padding-right: 0;
+    }
+    .about-content--strong {
+        width: 384px;
+    }
+    .insight-all {
+        margin-left: 5px;
+        margin-right: 5px;
+    } 
+}
+@media screen and (max-width: 426px) {
+    .banner h2 {
+        width: auto;
+        font-size: 34px;
+        line-height: 57px;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about-img {
+        width: auto;
+        padding-right: 0;
+    }
+    .about-content {
+        width: auto;
+        padding-right: 0;
+    }
+    .about-content--strong, 
+    .about-content--normal, 
+    .about-content--italic {
+        width: 300px;
+    }
+    .contact__title {
+        font-size: 32px !important;
+    }
+    .contact input {
+        width: auto;
+        padding: 10px 75px 10px 10px;
+    }
+    .contact__form select {
+        width: auto;
+        padding: 10px 60px 10px 10px;
+    }
+    .question {
+        font-size: 28px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .question p {
+        width: auto;
+    }
+    .insight-title {
+        font-size: 32px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .footer .menu {
+        flex-direction: column;
+    }
+    .menu__quick-link, .menu__contact, .menu__commit {
+        margin-bottom: 30px;
+    }
+    .footer-logo {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-logo-img {
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 321px) {
+    .contact input {
+        width: auto;
+        padding: 10px 15px 10px 10px;
+    }
+    .contact__form select {
+        width: auto;
+        padding: 10px 5px 10px 10px;
+    }
+    .btn-sm {
+        font-size: 12px;
+    }
+}
